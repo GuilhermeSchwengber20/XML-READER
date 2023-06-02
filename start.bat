@@ -2,8 +2,9 @@
 setlocal
 
 set "SCRIPT_DIR=%~dp0XMLReaderBDS"
-set "XML_PATH=%~dp0..\xml_misturado_path"
 set "FOLDER_PATH=%~dp0..\xmls"
+
+"%SCRIPT_DIR%"
 
 echo Executando o script Node.js...
 
